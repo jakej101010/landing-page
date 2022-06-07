@@ -1,0 +1,35 @@
+.body {
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-items {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 120px;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px;
+    margin-right: 120px;
+}
